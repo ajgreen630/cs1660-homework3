@@ -3,6 +3,8 @@ import csv
 # Execution instructions:
 # python3 MyAWS.py
 
+# Secret access key information has been removed for security purposes.
+
 # Create an instance of an s3 object:
 s3 = boto3.resource('s3', aws_access_key_id = 'AKIA5P4UIVONOKYCC2HI', aws_secret_access_key = '')
 
